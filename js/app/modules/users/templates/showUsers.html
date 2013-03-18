@@ -1,0 +1,14 @@
+<table id="all-users">
+    <tr>
+        <th>Név</th>
+    </tr>
+    
+    <% _.each(users, function(user) { %>  
+    
+        <tr>
+            <td><%= user.firstname %> <%= user.lastname %></td>
+        </tr>
+    
+    <% }); %>
+    
+</table>

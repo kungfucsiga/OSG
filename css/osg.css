@@ -1,0 +1,23 @@
+
+body {
+    background-color: #ffffff;
+    background-image: url(../img/bg5.jpg);
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+
+
+.alert-success {
+    display: none;
+}
+
+.pussy-pink-btn {
+    background: #D17E86 !important;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.pussy-pink-btn:hover {
+    text-decoration: none;
+    color: #ffffff;
+}

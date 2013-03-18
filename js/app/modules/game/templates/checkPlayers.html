@@ -1,0 +1,16 @@
+<table id="all-users">
+    <tr>
+        <th></th>
+        <th>Név</th>
+    </tr>
+    
+    <% _.each(users, function(user) { %>  
+    
+        <tr>
+            <td><input value="<%= user.id %>" type="checkbox" /></td>
+            <td><%= user.firstname %> <%= user.lastname %></td>
+        </tr>
+    
+    <% }); %>
+    
+</table>
